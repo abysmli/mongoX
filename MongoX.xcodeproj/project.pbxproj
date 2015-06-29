@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87F2E2AE55868B90CDA2A64A /* libPods-MongoX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E4425EA37F8993C4DAAC3D /* libPods-MongoX.a */; };
 		BCD129DB1B4072CA00F3204E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129DA1B4072CA00F3204E /* AppDelegate.swift */; };
-		BCD129DD1B4072CA00F3204E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129DC1B4072CA00F3204E /* FirstViewController.swift */; };
-		BCD129DF1B4072CA00F3204E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129DE1B4072CA00F3204E /* SecondViewController.swift */; };
+		BCD129DD1B4072CA00F3204E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129DC1B4072CA00F3204E /* HomeViewController.swift */; };
+		BCD129DF1B4072CA00F3204E /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129DE1B4072CA00F3204E /* SocialViewController.swift */; };
 		BCD129E21B4072CA00F3204E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD129E01B4072CA00F3204E /* Main.storyboard */; };
-		BCD129E41B4072CA00F3204E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD129E31B4072CA00F3204E /* Images.xcassets */; };
 		BCD129E71B4072CA00F3204E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD129E51B4072CA00F3204E /* LaunchScreen.xib */; };
 		BCD129F31B4072CA00F3204E /* MongoXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129F21B4072CA00F3204E /* MongoXTests.swift */; };
+		BCD129FD1B40A19A00F3204E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD129FC1B40A19A00F3204E /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C964A65ECA3027289BD0DAF /* Pods-MongoX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MongoX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MongoX/Pods-MongoX.release.xcconfig"; sourceTree = "<group>"; };
+		42E4425EA37F8993C4DAAC3D /* libPods-MongoX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MongoX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B059238A72EC9E00E527A40E /* Pods-MongoX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MongoX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MongoX/Pods-MongoX.debug.xcconfig"; sourceTree = "<group>"; };
+		BCB878C61B412CDF00A10A0C /* MongoX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MongoX-Bridging-Header.h"; sourceTree = "<group>"; };
 		BCD129D51B4072C900F3204E /* MongoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD129D91B4072CA00F3204E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCD129DA1B4072CA00F3204E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCD129DC1B4072CA00F3204E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BCD129DE1B4072CA00F3204E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BCD129DC1B4072CA00F3204E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BCD129DE1B4072CA00F3204E /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
 		BCD129E11B4072CA00F3204E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BCD129E31B4072CA00F3204E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BCD129E61B4072CA00F3204E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BCD129EC1B4072CA00F3204E /* MongoXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MongoXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD129F11B4072CA00F3204E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCD129F21B4072CA00F3204E /* MongoXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoXTests.swift; sourceTree = "<group>"; };
+		BCD129FC1B40A19A00F3204E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F2E2AE55868B90CDA2A64A /* libPods-MongoX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +64,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2504FD20AEEBB6E9E91B261D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42E4425EA37F8993C4DAAC3D /* libPods-MongoX.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BCD129CC1B4072C900F3204E = {
 			isa = PBXGroup;
 			children = (
+				BCB878C61B412CDF00A10A0C /* MongoX-Bridging-Header.h */,
 				BCD129D71B4072C900F3204E /* MongoX */,
 				BCD129EF1B4072CA00F3204E /* MongoXTests */,
 				BCD129D61B4072C900F3204E /* Products */,
+				DFD82489F714E82B218E6D8D /* Pods */,
+				2504FD20AEEBB6E9E91B261D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,10 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				BCD129DA1B4072CA00F3204E /* AppDelegate.swift */,
-				BCD129DC1B4072CA00F3204E /* FirstViewController.swift */,
-				BCD129DE1B4072CA00F3204E /* SecondViewController.swift */,
+				BCD129DC1B4072CA00F3204E /* HomeViewController.swift */,
+				BCD129DE1B4072CA00F3204E /* SocialViewController.swift */,
 				BCD129E01B4072CA00F3204E /* Main.storyboard */,
-				BCD129E31B4072CA00F3204E /* Images.xcassets */,
+				BCD129FC1B40A19A00F3204E /* Media.xcassets */,
 				BCD129E51B4072CA00F3204E /* LaunchScreen.xib */,
 				BCD129D81B4072CA00F3204E /* Supporting Files */,
 			);
@@ -115,6 +132,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DFD82489F714E82B218E6D8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B059238A72EC9E00E527A40E /* Pods-MongoX.debug.xcconfig */,
+				2C964A65ECA3027289BD0DAF /* Pods-MongoX.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCD129F61B4072CA00F3204E /* Build configuration list for PBXNativeTarget "MongoX" */;
 			buildPhases = (
+				5A6A463F926EFCAD557CD00D /* Check Pods Manifest.lock */,
 				BCD129D11B4072C900F3204E /* Sources */,
 				BCD129D21B4072C900F3204E /* Frameworks */,
 				BCD129D31B4072C900F3204E /* Resources */,
+				BB11FB96C27EA7C64EC7061E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,6 +192,7 @@
 				TargetAttributes = {
 					BCD129D41B4072C900F3204E = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 4YMW3G2T54;
 					};
 					BCD129EB1B4072CA00F3204E = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -197,7 +226,7 @@
 			files = (
 				BCD129E21B4072CA00F3204E /* Main.storyboard in Resources */,
 				BCD129E71B4072CA00F3204E /* LaunchScreen.xib in Resources */,
-				BCD129E41B4072CA00F3204E /* Images.xcassets in Resources */,
+				BCD129FD1B40A19A00F3204E /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,14 +239,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A6A463F926EFCAD557CD00D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB11FB96C27EA7C64EC7061E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MongoX/Pods-MongoX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCD129D11B4072C900F3204E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCD129DF1B4072CA00F3204E /* SecondViewController.swift in Sources */,
+				BCD129DF1B4072CA00F3204E /* SocialViewController.swift in Sources */,
 				BCD129DB1B4072CA00F3204E /* AppDelegate.swift in Sources */,
-				BCD129DD1B4072CA00F3204E /* FirstViewController.swift in Sources */,
+				BCD129DD1B4072CA00F3204E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,21 +404,29 @@
 		};
 		BCD129F71B4072CA00F3204E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B059238A72EC9E00E527A40E /* Pods-MongoX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MongoX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MongoX-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		BCD129F81B4072CA00F3204E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C964A65ECA3027289BD0DAF /* Pods-MongoX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MongoX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MongoX-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -413,6 +483,7 @@
 				BCD129F81B4072CA00F3204E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCD129F91B4072CA00F3204E /* Build configuration list for PBXNativeTarget "MongoXTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +492,7 @@
 				BCD129FB1B4072CA00F3204E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
