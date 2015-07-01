@@ -1,15 +1,15 @@
 //
-//  FirstViewController.swift
+//  FollowViewController.swift
 //  MongoX
 //
-//  Created by AbysmLi on 6/28/15.
+//  Created by AbysmLi on 7/1/15.
 //  Copyright (c) 2015 AbysmLi. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
-    
+class FollowViewController: UIViewController {
+
     @IBOutlet weak var usericon1: UIImageView!
     @IBOutlet weak var usericon2: UIImageView!
     @IBOutlet weak var usericon3: UIImageView!
@@ -20,8 +20,8 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //scoller.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 1290, right: 0)
         self.automaticallyAdjustsScrollViewInsets = false
+        
         usericon1.layer.cornerRadius = 20
         usericon1.layer.masksToBounds = true
         usericon2.layer.cornerRadius = 20
@@ -35,15 +35,23 @@ class HomeViewController: UIViewController {
         follow2.layer.masksToBounds = true
         follow3.layer.cornerRadius = 2
         follow3.layer.masksToBounds = true
-        
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }
-

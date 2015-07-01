@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		87F2E2AE55868B90CDA2A64A /* libPods-MongoX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E4425EA37F8993C4DAAC3D /* libPods-MongoX.a */; };
+		BC7845E11B447E510015D47E /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7845E01B447E510015D47E /* FollowViewController.swift */; };
+		BC7845E31B448F070015D47E /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7845E21B448F070015D47E /* PostDetailsViewController.swift */; };
 		BCD129DB1B4072CA00F3204E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129DA1B4072CA00F3204E /* AppDelegate.swift */; };
 		BCD129DD1B4072CA00F3204E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129DC1B4072CA00F3204E /* HomeViewController.swift */; };
 		BCD129DF1B4072CA00F3204E /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129DE1B4072CA00F3204E /* SocialViewController.swift */; };
@@ -31,6 +33,8 @@
 		2C964A65ECA3027289BD0DAF /* Pods-MongoX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MongoX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MongoX/Pods-MongoX.release.xcconfig"; sourceTree = "<group>"; };
 		42E4425EA37F8993C4DAAC3D /* libPods-MongoX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MongoX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B059238A72EC9E00E527A40E /* Pods-MongoX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MongoX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MongoX/Pods-MongoX.debug.xcconfig"; sourceTree = "<group>"; };
+		BC7845E01B447E510015D47E /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		BC7845E21B448F070015D47E /* PostDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
 		BCB878C61B412CDF00A10A0C /* MongoX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MongoX-Bridging-Header.h"; sourceTree = "<group>"; };
 		BCD129D51B4072C900F3204E /* MongoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD129D91B4072CA00F3204E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 			children = (
 				BCD129DA1B4072CA00F3204E /* AppDelegate.swift */,
 				BCD129DC1B4072CA00F3204E /* HomeViewController.swift */,
+				BC7845E01B447E510015D47E /* FollowViewController.swift */,
+				BC7845E21B448F070015D47E /* PostDetailsViewController.swift */,
 				BCD129DE1B4072CA00F3204E /* SocialViewController.swift */,
 				BCD129E01B4072CA00F3204E /* Main.storyboard */,
 				BCD129FC1B40A19A00F3204E /* Media.xcassets */,
@@ -280,6 +286,8 @@
 				BCD129DF1B4072CA00F3204E /* SocialViewController.swift in Sources */,
 				BCD129DB1B4072CA00F3204E /* AppDelegate.swift in Sources */,
 				BCD129DD1B4072CA00F3204E /* HomeViewController.swift in Sources */,
+				BC7845E11B447E510015D47E /* FollowViewController.swift in Sources */,
+				BC7845E31B448F070015D47E /* PostDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
