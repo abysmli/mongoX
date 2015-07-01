@@ -10,8 +10,12 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var scoller: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        //scoller.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 1290, right: 0)
+        self.automaticallyAdjustsScrollViewInsets = false
         
         // Do any additional setup after loading the view, typically from a nib.
     }
