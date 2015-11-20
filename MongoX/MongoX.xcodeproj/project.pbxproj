@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87F2E2AE55868B90CDA2A64A /* libPods-MongoX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E4425EA37F8993C4DAAC3D /* libPods-MongoX.a */; };
+		BC545A8D1B454B98006ADAB6 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC545A8C1B454B98006ADAB6 /* MyViewController.swift */; };
+		BC7845E11B447E510015D47E /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7845E01B447E510015D47E /* FollowViewController.swift */; };
+		BC7845E31B448F070015D47E /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7845E21B448F070015D47E /* PostDetailsViewController.swift */; };
+		BC8E9ABD1B495C0600F5D5D0 /* myFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC8E9ABC1B495BE600F5D5D0 /* myFont.ttf */; };
+		BCD129DB1B4072CA00F3204E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129DA1B4072CA00F3204E /* AppDelegate.swift */; };
+		BCD129DD1B4072CA00F3204E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129DC1B4072CA00F3204E /* HomeViewController.swift */; };
+		BCD129DF1B4072CA00F3204E /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129DE1B4072CA00F3204E /* SocialViewController.swift */; };
+		BCD129E21B4072CA00F3204E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD129E01B4072CA00F3204E /* Main.storyboard */; };
+		BCD129E71B4072CA00F3204E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD129E51B4072CA00F3204E /* LaunchScreen.xib */; };
+		BCD129F31B4072CA00F3204E /* MongoXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD129F21B4072CA00F3204E /* MongoXTests.swift */; };
+		BCD129FD1B40A19A00F3204E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD129FC1B40A19A00F3204E /* Media.xcassets */; };
+		BCE2E8471B711972007821BB /* CDUserFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE2E8461B711972007821BB /* CDUserFactory.m */; };
+		BCE2E8511B711CAB007821BB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE2E84B1B711CAB007821BB /* MainViewController.m */; };
+		BCE2E8521B711CAB007821BB /* LCEChatListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE2E84D1B711CAB007821BB /* LCEChatListVC.m */; };
+		BCE2E85C1B715CC8007821BB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE2E85B1B715CC8007821BB /* LoginViewController.m */; };
+		BCFC9F551B716283005E9730 /* LCEChatRoomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC9F541B716283005E9730 /* LCEChatRoomVC.m */; };
+		BCFC9F571B71E82A005E9730 /* FriendPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC9F561B71E82A005E9730 /* FriendPhotoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD129ED1B4072CA00F3204E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD129CD1B4072C900F3204E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD129D41B4072C900F3204E;
+			remoteInfo = MongoX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C964A65ECA3027289BD0DAF /* Pods-MongoX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MongoX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MongoX/Pods-MongoX.release.xcconfig"; sourceTree = "<group>"; };
+		42E4425EA37F8993C4DAAC3D /* libPods-MongoX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MongoX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B059238A72EC9E00E527A40E /* Pods-MongoX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MongoX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MongoX/Pods-MongoX.debug.xcconfig"; sourceTree = "<group>"; };
+		BC545A8C1B454B98006ADAB6 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		BC7845E01B447E510015D47E /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		BC7845E21B448F070015D47E /* PostDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
+		BC8E9ABC1B495BE600F5D5D0 /* myFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = myFont.ttf; sourceTree = "<group>"; };
+		BC9E86EB1B5A6AFB0057C03A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BC9E86ED1B5A6B060057C03A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BC9E86EF1B5A6B0E0057C03A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BC9E86F11B5A6B170057C03A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BC9E86F31B5A6B1E0057C03A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BCB878C61B412CDF00A10A0C /* MongoX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MongoX-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCD129D51B4072C900F3204E /* MongoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD129D91B4072CA00F3204E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD129DA1B4072CA00F3204E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCD129DC1B4072CA00F3204E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BCD129DE1B4072CA00F3204E /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		BCD129E11B4072CA00F3204E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCD129E61B4072CA00F3204E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCD129EC1B4072CA00F3204E /* MongoXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MongoXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD129F11B4072CA00F3204E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD129F21B4072CA00F3204E /* MongoXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoXTests.swift; sourceTree = "<group>"; };
+		BCD129FC1B40A19A00F3204E /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		BCE2E8451B711972007821BB /* CDUserFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDUserFactory.h; sourceTree = "<group>"; };
+		BCE2E8461B711972007821BB /* CDUserFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDUserFactory.m; sourceTree = "<group>"; };
+		BCE2E84A1B711CAB007821BB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BCE2E84B1B711CAB007821BB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BCE2E84C1B711CAB007821BB /* LCEChatListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEChatListVC.h; sourceTree = "<group>"; };
+		BCE2E84D1B711CAB007821BB /* LCEChatListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEChatListVC.m; sourceTree = "<group>"; };
+		BCE2E85A1B715CC8007821BB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BCE2E85B1B715CC8007821BB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BCFC9F531B716283005E9730 /* LCEChatRoomVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCEChatRoomVC.h; sourceTree = "<group>"; };
+		BCFC9F541B716283005E9730 /* LCEChatRoomVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCEChatRoomVC.m; sourceTree = "<group>"; };
+		BCFC9F561B71E82A005E9730 /* FriendPhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendPhotoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD129D21B4072C900F3204E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F2E2AE55868B90CDA2A64A /* libPods-MongoX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD129E91B4072CA00F3204E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2504FD20AEEBB6E9E91B261D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC9E86F31B5A6B1E0057C03A /* CoreLocation.framework */,
+				BC9E86F11B5A6B170057C03A /* CFNetwork.framework */,
+				BC9E86EF1B5A6B0E0057C03A /* CoreTelephony.framework */,
+				BC9E86ED1B5A6B060057C03A /* MobileCoreServices.framework */,
+				BC9E86EB1B5A6AFB0057C03A /* SystemConfiguration.framework */,
+				42E4425EA37F8993C4DAAC3D /* libPods-MongoX.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC9E87011B5A6DF20057C03A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				BCE2E8451B711972007821BB /* CDUserFactory.h */,
+				BCE2E8461B711972007821BB /* CDUserFactory.m */,
+				BCE2E85A1B715CC8007821BB /* LoginViewController.h */,
+				BCE2E85B1B715CC8007821BB /* LoginViewController.m */,
+				BCE2E84A1B711CAB007821BB /* MainViewController.h */,
+				BCE2E84B1B711CAB007821BB /* MainViewController.m */,
+				BCE2E84C1B711CAB007821BB /* LCEChatListVC.h */,
+				BCE2E84D1B711CAB007821BB /* LCEChatListVC.m */,
+				BCFC9F531B716283005E9730 /* LCEChatRoomVC.h */,
+				BCFC9F541B716283005E9730 /* LCEChatRoomVC.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		BCD129CC1B4072C900F3204E = {
+			isa = PBXGroup;
+			children = (
+				BCB878C61B412CDF00A10A0C /* MongoX-Bridging-Header.h */,
+				BCD129D71B4072C900F3204E /* MongoX */,
+				BCD129EF1B4072CA00F3204E /* MongoXTests */,
+				BCD129D61B4072C900F3204E /* Products */,
+				DFD82489F714E82B218E6D8D /* Pods */,
+				2504FD20AEEBB6E9E91B261D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD129D61B4072C900F3204E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD129D51B4072C900F3204E /* MongoX.app */,
+				BCD129EC1B4072CA00F3204E /* MongoXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD129D71B4072C900F3204E /* MongoX */ = {
+			isa = PBXGroup;
+			children = (
+				BCD129DA1B4072CA00F3204E /* AppDelegate.swift */,
+				BCD129DC1B4072CA00F3204E /* HomeViewController.swift */,
+				BC7845E01B447E510015D47E /* FollowViewController.swift */,
+				BC7845E21B448F070015D47E /* PostDetailsViewController.swift */,
+				BC545A8C1B454B98006ADAB6 /* MyViewController.swift */,
+				BCD129E01B4072CA00F3204E /* Main.storyboard */,
+				BCD129FC1B40A19A00F3204E /* Media.xcassets */,
+				BCD129E51B4072CA00F3204E /* LaunchScreen.xib */,
+				BCFC9F581B71E997005E9730 /* FindFriend */,
+				BC9E87011B5A6DF20057C03A /* Chat */,
+				BCD129D81B4072CA00F3204E /* Supporting Files */,
+			);
+			path = MongoX;
+			sourceTree = "<group>";
+		};
+		BCD129D81B4072CA00F3204E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC8E9ABC1B495BE600F5D5D0 /* myFont.ttf */,
+				BCD129D91B4072CA00F3204E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCD129EF1B4072CA00F3204E /* MongoXTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD129F21B4072CA00F3204E /* MongoXTests.swift */,
+				BCD129F01B4072CA00F3204E /* Supporting Files */,
+			);
+			path = MongoXTests;
+			sourceTree = "<group>";
+		};
+		BCD129F01B4072CA00F3204E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCD129F11B4072CA00F3204E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCFC9F581B71E997005E9730 /* FindFriend */ = {
+			isa = PBXGroup;
+			children = (
+				BCD129DE1B4072CA00F3204E /* SocialViewController.swift */,
+				BCFC9F561B71E82A005E9730 /* FriendPhotoView.swift */,
+			);
+			name = FindFriend;
+			sourceTree = "<group>";
+		};
+		DFD82489F714E82B218E6D8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B059238A72EC9E00E527A40E /* Pods-MongoX.debug.xcconfig */,
+				2C964A65ECA3027289BD0DAF /* Pods-MongoX.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD129D41B4072C900F3204E /* MongoX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD129F61B4072CA00F3204E /* Build configuration list for PBXNativeTarget "MongoX" */;
+			buildPhases = (
+				5A6A463F926EFCAD557CD00D /* Check Pods Manifest.lock */,
+				BCD129D11B4072C900F3204E /* Sources */,
+				BCD129D21B4072C900F3204E /* Frameworks */,
+				BCD129D31B4072C900F3204E /* Resources */,
+				BB11FB96C27EA7C64EC7061E /* Copy Pods Resources */,
+				D84F5B7D45661DB9973240FA /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MongoX;
+			productName = MongoX;
+			productReference = BCD129D51B4072C900F3204E /* MongoX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD129EB1B4072CA00F3204E /* MongoXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD129F91B4072CA00F3204E /* Build configuration list for PBXNativeTarget "MongoXTests" */;
+			buildPhases = (
+				BCD129E81B4072CA00F3204E /* Sources */,
+				BCD129E91B4072CA00F3204E /* Frameworks */,
+				BCD129EA1B4072CA00F3204E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD129EE1B4072CA00F3204E /* PBXTargetDependency */,
+			);
+			name = MongoXTests;
+			productName = MongoXTests;
+			productReference = BCD129EC1B4072CA00F3204E /* MongoXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD129CD1B4072C900F3204E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = AbysmLi;
+				TargetAttributes = {
+					BCD129D41B4072C900F3204E = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 4YMW3G2T54;
+					};
+					BCD129EB1B4072CA00F3204E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BCD129D41B4072C900F3204E;
+					};
+				};
+			};
+			buildConfigurationList = BCD129D01B4072C900F3204E /* Build configuration list for PBXProject "MongoX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD129CC1B4072C900F3204E;
+			productRefGroup = BCD129D61B4072C900F3204E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD129D41B4072C900F3204E /* MongoX */,
+				BCD129EB1B4072CA00F3204E /* MongoXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD129D31B4072C900F3204E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8E9ABD1B495C0600F5D5D0 /* myFont.ttf in Resources */,
+				BCD129E21B4072CA00F3204E /* Main.storyboard in Resources */,
+				BCD129E71B4072CA00F3204E /* LaunchScreen.xib in Resources */,
+				BCD129FD1B40A19A00F3204E /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD129EA1B4072CA00F3204E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A6A463F926EFCAD557CD00D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB11FB96C27EA7C64EC7061E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MongoX/Pods-MongoX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D84F5B7D45661DB9973240FA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MongoX/Pods-MongoX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD129D11B4072C900F3204E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD129DF1B4072CA00F3204E /* SocialViewController.swift in Sources */,
+				BCD129DB1B4072CA00F3204E /* AppDelegate.swift in Sources */,
+				BCD129DD1B4072CA00F3204E /* HomeViewController.swift in Sources */,
+				BCE2E8511B711CAB007821BB /* MainViewController.m in Sources */,
+				BC7845E11B447E510015D47E /* FollowViewController.swift in Sources */,
+				BCFC9F551B716283005E9730 /* LCEChatRoomVC.m in Sources */,
+				BCE2E8471B711972007821BB /* CDUserFactory.m in Sources */,
+				BCE2E8521B711CAB007821BB /* LCEChatListVC.m in Sources */,
+				BC545A8D1B454B98006ADAB6 /* MyViewController.swift in Sources */,
+				BCFC9F571B71E82A005E9730 /* FriendPhotoView.swift in Sources */,
+				BCE2E85C1B715CC8007821BB /* LoginViewController.m in Sources */,
+				BC7845E31B448F070015D47E /* PostDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD129E81B4072CA00F3204E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD129F31B4072CA00F3204E /* MongoXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD129EE1B4072CA00F3204E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD129D41B4072C900F3204E /* MongoX */;
+			targetProxy = BCD129ED1B4072CA00F3204E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCD129E01B4072CA00F3204E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD129E11B4072CA00F3204E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCD129E51B4072CA00F3204E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD129E61B4072CA00F3204E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCD129F41B4072CA00F3204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCD129F51B4072CA00F3204E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD129F71B4072CA00F3204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B059238A72EC9E00E527A40E /* Pods-MongoX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MongoX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.icedeer.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MongoX-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		BCD129F81B4072CA00F3204E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C964A65ECA3027289BD0DAF /* Pods-MongoX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MongoX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.icedeer.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MongoX-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BCD129FA1B4072CA00F3204E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MongoXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.icedeer.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MongoX.app/MongoX";
+			};
+			name = Debug;
+		};
+		BCD129FB1B4072CA00F3204E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = MongoXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.icedeer.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MongoX.app/MongoX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD129D01B4072C900F3204E /* Build configuration list for PBXProject "MongoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD129F41B4072CA00F3204E /* Debug */,
+				BCD129F51B4072CA00F3204E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD129F61B4072CA00F3204E /* Build configuration list for PBXNativeTarget "MongoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD129F71B4072CA00F3204E /* Debug */,
+				BCD129F81B4072CA00F3204E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD129F91B4072CA00F3204E /* Build configuration list for PBXNativeTarget "MongoXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD129FA1B4072CA00F3204E /* Debug */,
+				BCD129FB1B4072CA00F3204E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD129CD1B4072C900F3204E /* Project object */;
+}

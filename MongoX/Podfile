@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+
+workspace 'MongoX.xcworkspace'
+
+target 'MongoX' do
+    xcodeproj 'MongoX.xcodeproj'
+    pod 'AFNetworking'
+    pod 'KASlideShow'
+    pod 'LeanChatLib' , :path => '../'
+end
